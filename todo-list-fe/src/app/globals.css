@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.strike {
+	text-decoration: line-through 3px red;
+}
+
+.green {
+	background-color: green !important;
+}
