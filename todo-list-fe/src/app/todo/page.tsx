@@ -2,9 +2,9 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { AiOutlineCheck } from 'react-icons/ai';
-import { useTodo } from '../hooks/useTodo';
-import FormInput from '../components/formInput';
 import moment from 'moment';
+import FormInput from '@/components/formInput';
+import { useTodo } from '@/hooks/useTodo';
 
 export default function Todo() {
 	const { push } = useRouter();

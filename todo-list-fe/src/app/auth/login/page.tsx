@@ -2,9 +2,9 @@
 import { FormEvent, useState } from 'react';
 import 'react-toastify/dist/ReactToastify.css';
 import { useRouter } from 'next/navigation';
-import { RequestBody, authFetch } from '@/app/helpers/fetch';
 import AuthForm from '../page';
 import { toast } from 'react-toastify';
+import { RequestBody, authFetch } from '@/helpers/fetch';
 
 export default function Login() {
 	const [email, setEmail] = useState('');
